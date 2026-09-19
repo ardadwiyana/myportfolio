@@ -11,7 +11,7 @@ const SUMMARY =
   "Web application responsif untuk wisata Curug Cikoneng, dilengkapi pemesanan tiket online, penjualan UMKM, pembayaran elektronik, dan QR Code scanner berbasis mikrokontroler untuk verifikasi tiket di pintu masuk.";
 const DEMO_URL = null;
 
-const GALLERY = ["/images/CC.jpg"];
+const GALLERY = ["/myportfolio/images/CC.jpg"];
 
 const FEATURES = [
   "Pemesanan tiket online yang terintegrasi dengan sistem verifikasi otomatis.",
@@ -27,7 +27,7 @@ const SKILLS = [
   { icon: "puzzle", label: "Hardware & Software Integration" },
 ];
 
-const JOURNAL_IMAGE = "/images/Journal1.png";
+const JOURNAL_IMAGE = "/myportfolio/images/Journal1.png";
 
 export default function ProjectCurugCikoneng() {
   return (

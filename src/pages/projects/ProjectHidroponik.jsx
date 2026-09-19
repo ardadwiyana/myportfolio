@@ -11,7 +11,7 @@ const SUMMARY =
   "Sistem kontrol hidroponik cerdas berbasis IoT dan logika fuzzy untuk mengoptimalkan pertumbuhan tanaman kale secara presisi dan adaptif. Sistem mendukung pemantauan real-time terhadap parameter nutrisi, suhu, dan pH, serta dilengkapi fitur kontrol manual pada katup dan pompa serta kontrol otomatis berbasis logika fuzzy guna menjaga stabilitas ekosistem hidroponik secara efisien, responsif, dan minim intervensi.";
 const DEMO_URL = "https://monitoring-iot-main-final.vercel.app/";
 
-const GALLERY = ["/images/JKW.jpg"];
+const GALLERY = ["/myportfolio/images/JKW.jpg"];
 
 const FEATURES = [
   "Merancang dan merakit hardware sistem hidroponik berbasis IoT, termasuk integrasi sensor, relay, pompa, dan katup.",
@@ -30,7 +30,7 @@ const SKILLS = [
   { icon: "sigma", label: "MATLAB" },
 ];
 
-const JOURNAL_IMAGE = "/images/Journal2.png";
+const JOURNAL_IMAGE = "/myportfolio/images/Journal2.png";
 
 export default function ProjectHidroponik() {
   return (

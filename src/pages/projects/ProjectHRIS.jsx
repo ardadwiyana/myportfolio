@@ -12,11 +12,11 @@ const SUMMARY =
 const DEMO_URL = "https://hris-frontend-mu.vercel.app";
 
 const GALLERY = [
-  "/images/dashboard.png",
-  "/images/employees.png",
-  "/images/attendances.png",
-  "/images/leaves.png",
-  "/images/Organitations.png",
+  "/myportfolio/images/dashboard.png",
+  "/myportfolio/images/employees.png",
+  "/myportfolio/images/attendances.png",
+  "/myportfolio/images/leaves.png",
+  "/myportfolio/images/Organitations.png",
 ];
 
 const FEATURES = [
@@ -33,7 +33,7 @@ const TECHNOLOGIES = [
   { name: "Tailwind CSS", slug: "tailwindcss", color: "38BDF8" },
   { name: "Vite", slug: "vite", color: "646CFF" },
   { name: "Vercel", slug: "vercel", color: "ffffff" },
-  { name: "Node.js", slug: "/images/nodejs.png", color: "ffffff" },
+  { name: "Node.js", slug: "/myportfolio/images/nodejs.png", color: "ffffff" },
   { name: "Express.js", slug: "express", color: "ffffff" },
   { name: "Prisma", slug: "prisma", color: "646CFF" },
   { name: "PostgreSQL", slug: "postgresql", color: "646CFF" },

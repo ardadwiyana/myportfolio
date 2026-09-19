@@ -10,7 +10,7 @@ export const profile = {
     degree: "D4 · Institut Pertanian Bogor",
     detail: "Teknologi Rekayasa Komputer · IPK 3.49/4.00",
   },
-  photo: "/images/profil.jpg",
+  photo: "/myportfolio/images/profil.jpg",
   socials: [
     { icon: "linkedin", url: "https://www.linkedin.com/in/ardadwiyana", label: "LinkedIn" },
     { icon: "instagram", url: "https://www.instagram.com/ardadwiyana", label: "Instagram" },
@@ -46,7 +46,7 @@ export const experiences = [
       "Berkoordinasi dengan tim internal untuk penyelesaian kendala teknis yang lebih kompleks.",
       "Mendukung operasional layanan dan pengelolaan antrean untuk memastikan efisiensi pelayanan.",
     ],
-    gallery: ["/images/BNI.jpg", "/images/SertifikatBNI.jpg"],
+    gallery: ["/myportfolio/images/BNI.jpg", "/myportfolio/images/SertifikatBNI.jpg"],
   },
   {
     id: "bpsi",
@@ -75,11 +75,11 @@ export const experiences = [
       "Melakukan pengujian, kalibrasi, troubleshooting dan optimasi sistem secara menyeluruh.",
     ],
     gallery: [
-      "/images/Snaper.jpg",
-      "/images/Desain.jpg",
-      "/images/Wiring.jpg",
-      "/images/SertifikatBPSI.jpg",
-      "/images/Journal3.png",
+      "/myportfolio/images/Snaper.jpg",
+      "/myportfolio/images/Desain.jpg",
+      "/myportfolio/images/Wiring.jpg",
+      "/myportfolio/images/SertifikatBPSI.jpg",
+      "/myportfolio/images/Journal3.png",
     ],
   },
 ];
@@ -93,28 +93,28 @@ export const projects = [
     slug: "hris",
     category: "Web Application",
     title: "HR Information System",
-    image: "/images/dashboard.png",
+    image: "/myportfolio/images/dashboard.png",
     summary:
       "Aplikasi manajemen sumber daya manusia berbasis web untuk mengelola data karyawan, presensi, pengajuan cuti, dan payroll dalam satu dashboard terpusat. Dilengkapi visualisasi data real-time dan sistem akses berbasis peran (admin, HR, karyawan) untuk mendukung proses administrasi kepegawaian yang lebih efisien dan transparan.",
-    journal: "/images/Journal2.png",
+    journal: "/myportfolio/images/Journal2.png",
   },
   {
     slug: "hidroponik",
     category: "Internet of Things",
     title: "Hidroponik Joglo Kebun Wangi",
-    image: "/images/JKW.jpg",
+    image: "/myportfolio/images/JKW.jpg",
     summary:
       "Sistem kontrol hidroponik cerdas berbasis IoT dan logika fuzzy untuk mengoptimalkan pertumbuhan tanaman kale secara presisi. Monitoring real-time nutrisi, suhu, dan pH dengan kontrol manual dan otomatis berbasis fuzzy.",
-    journal: "/images/Journal2.png",
+    journal: "/myportfolio/images/Journal2.png",
   },
   {
     slug: "curug-cikoneng",
     category: "Internet of Things",
     title: "Web Curug Cikoneng",
-    image: "/images/CC.jpg",
+    image: "/myportfolio/images/CC.jpg",
     summary:
       "Web application responsif untuk wisata Curug Cikoneng, dilengkapi pemesanan tiket online, penjualan UMKM, pembayaran elektronik, dan QR Code scanner berbasis mikrokontroler untuk verifikasi tiket di pintu masuk.",
-    journal: "/images/Journal1.png",
+    journal: "/myportfolio/images/Journal1.png",
   },
 ];
 
@@ -169,17 +169,17 @@ export const certifications = [
   {
     name: "Hardware Installation Supervisor",
     issuer: "BNSP — Badan Nasional Sertifikasi Profesi",
-    image: "/images/SertifikatBNSP.jpg",
+    image: "/myportfolio/images/SertifikatBNSP.jpg",
   },
   {
     name: "Digital Assistant",
     issuer: "MagangHub",
-    image: "/images/SertifikatBNI.jpg",
+    image: "/myportfolio/images/SertifikatBNI.jpg",
   },
   {
     name: "IoT Engineer Intern",
     issuer: "BPSI Agroklimat dan Hidrologi Pertanian",
-    image: "/images/SertifikatBPSI.jpg",
+    image: "/myportfolio/images/SertifikatBPSI.jpg",
   },
 ];
 
@@ -189,13 +189,13 @@ export const techStack = [
   { name: "MQTT", slug: "mqtt", color: "660066" },
   { name: "KiCad", slug: "kicad", color: "314CB0" },
   { name: "Fusion 360", slug: "autodesk", color: "0696D7" },
-  { name: "MATLAB", slug: "/images/matlab.jpeg", color: "660066" },
-  { name: "Blynk", slug: "/images/Blynk.png", color: "660066"},
+  { name: "MATLAB", slug: "/myportfolio/images/matlab.jpeg", color: "660066" },
+  { name: "Blynk", slug: "/myportfolio/images/Blynk.png", color: "660066"},
   { name: "React", slug: "react", color: "61DAFB" },
   { name: "Tailwind CSS", slug: "tailwindcss", color: "38BDF8" },
   { name: "Vite", slug: "vite", color: "646CFF" },
   { name: "Vercel", slug: "vercel", color: "ffffff" },
-  { name: "Node.js", slug: "/images/nodejs.png", color: "ffffff" },
+  { name: "Node.js", slug: "/myportfolio/images/nodejs.png", color: "ffffff" },
   { name: "Express.js", slug: "express", color: "ffffff" },
   { name: "Prisma", slug: "prisma", color: "646CFF" },
   { name: "PostgreSQL", slug: "postgresql", color: "646CFF" },
