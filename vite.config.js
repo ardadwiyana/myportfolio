@@ -1,9 +1,11 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // <-- Pastikan ini diimport
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  plugins: [react()],
-  base: '/myportfolio/',
-});
+  plugins: [
+    react(),
+    tailwindcss(), // <-- Masukkan plugin ini di sini
+  ],
+  base: '/', // Sesuaikan dengan nama repo GitHub Anda
+})
