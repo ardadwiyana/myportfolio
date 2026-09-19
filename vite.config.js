@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // <-- Masukkan plugin ini di sini
   ],
-  base: '/', // Sesuaikan dengan nama repo GitHub Anda
+  base: '/myportfolio/', // Sesuaikan dengan nama repo GitHub Anda
 })
